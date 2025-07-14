@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pharmacy Student Study Portal</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"defer></script>
+</head>
+<body>
+  <header>
+    <h1>Pharmacy Student Study Portal</h1>
+    <nav>
+      <button id="notes-tab" class="tab active">Notes</button>
+      <button id="quizzes-tab" class="tab">Questions</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="notes-section" class="active">
+      <h2>Study Notes</h2>
+      <div id="notes-container"></div>
+      <button id="add-note-btn">Add Note</button>
+    </section>
+
+    <section id="quizzes-section">
+      <h2>Questions</h2>
+      <div id="quizzes-container"></div>
+      <button id="add-quiz-btn">Add Question</button>
+      <div id="quiz-taking-container" style="display:none;"></div>
+    </section>
+  </main>  
+</body>
+</html>
